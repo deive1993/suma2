@@ -1,53 +1,41 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Controlador;
-import java.awt.event.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import javax.swing.JTextField;
 
 
-/**
- *
- * @author leona
- */
-public class ControladorSuma2Mouse implements WindowListener  {
+public class ControladorSuma2Mouse implements MouseListener  {
+    private JTextField visualizadorRst;
 
-    @Override
-    public void windowOpened(WindowEvent e) {
-       System.out.println("windowOpened");
-    }
-
-    @Override
-    public void windowClosing(WindowEvent e) {
-       System.out.println("Closing");
-       System.exit(0);
-    }
-
-    @Override
-    public void windowClosed(WindowEvent e) {
-        System.out.println("windowClosed");
-    }
-
-    @Override
-    public void windowIconified(WindowEvent e) {
-        System.out.println("windowIconified");
-    }
-
-    @Override
-    public void windowDeiconified(WindowEvent e) {
-        System.out.println("windowDeiconified");
-    }
-
-    @Override
-    public void windowActivated(WindowEvent e) {
-        System.out.println("windowActivated");
-    }
-
-    @Override
-    public void windowDeactivated(WindowEvent e) {
-        System.out.println("windowDeactivated");
-
+    public ControladorSuma2Mouse(JTextField cuadroResultado) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
+    @Override
+    public void mouseClicked(MouseEvent e) {
+    
+    
+    }
+
+    @Override
+    public void mousePressed(MouseEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void mouseReleased(MouseEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void mouseEntered(MouseEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void mouseExited(MouseEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }

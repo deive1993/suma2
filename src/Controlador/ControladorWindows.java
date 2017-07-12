@@ -1,14 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Controlador;
-import java.awt.event.*;
-/**
- *
- * @author USER
- */
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+
 public class ControladorWindows implements WindowListener {
 
     @Override
@@ -45,5 +39,5 @@ public class ControladorWindows implements WindowListener {
     public void windowDeactivated(WindowEvent e) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
+ 
 }

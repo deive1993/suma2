@@ -1,12 +1,13 @@
 
 package Controlador;
-import java.awt.event.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
 
 public class ControladorSumaMouse implements MouseListener {
 
     @Override
     public void mouseClicked(MouseEvent e) {
-        System.out.println("apretado");
     }
 
     @Override
@@ -24,6 +25,5 @@ public class ControladorSumaMouse implements MouseListener {
     @Override
     public void mouseExited(MouseEvent e) {
     }
-
     
 }
